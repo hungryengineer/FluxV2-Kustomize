@@ -7,7 +7,7 @@ data:
   index.html: |
     <html>
       <head>
-        <title>Starwind</title>
+        <title>Helsinki POC</title>
       </head>
-      <body>Hello Starwind Development :D</body>
+      <body>Hello Team from Helsinki <br /> This is from Dev</body>
     </html>
