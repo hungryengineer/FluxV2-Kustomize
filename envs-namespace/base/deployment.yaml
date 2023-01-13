@@ -17,3 +17,17 @@ spec:
       containers:
       - name: web
         image: nginx
+        resources:  
+            limits:  
+              cpu: 100m  
+              memory: 10Mi  
+            requests:  
+              cpu: 100m  
+              memory: 10Mi  
+        volumeMounts:  
+          - mountPath: /usr/share/nginx/html
+            name: html  
+      volumes:  
+        - name: html
+          configMap:
+            name: nginx-index-html
