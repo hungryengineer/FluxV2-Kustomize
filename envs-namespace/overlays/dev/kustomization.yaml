@@ -7,3 +7,4 @@ patchesStrategicMerge:
 namespace: demo-dev
 resources:
 - ./namespace.yaml
+- ./configmap.yaml
