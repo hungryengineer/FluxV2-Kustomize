@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-index-html
+  namespace: demo-dev
+data:
+  index.html: |
+    <html>
+      <head>
+        <title>Starwind</title>
+      </head>
+      <body>Hello Starwind :D</body>
+    </html>
