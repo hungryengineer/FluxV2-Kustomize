@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-index-html
+  namespace: demo-prod
+data:
+  index.html: |
+    <html>
+      <head>
+        <title>Helsinki POC</title>
+      </head>
+      <body>Hello Team from Helsinki <br /> This is from prod</body>
+    </html>
